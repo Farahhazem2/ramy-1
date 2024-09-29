@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
+/* navbar */
+span{
+  color: #a61732;
+}
+nav {
+  
+  backdrop-filter: blur(8px) !important;
+  background: transparent !important; 
+  background-color: #ffffff9f !important;
+
+
+}
+.nav-link{
+  color: black !important;
+}
+.nav-link:hover {
+    color: #ea1538!important;
+    transition: .3s ;
+    
+}
+/* header{
+  background-color: #baaeae3a;
+ 
+} */
+
+/* Section one */
+.one {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+
+
+h1 {
+  text-align: right;
+  margin-left:250px;
+  color: #333;
+  padding: 20px 0;
+  
+}
+.video-container {
+  display: flex;
+  align-items: center; /* لضمان محاذاة الفيديو والنص عموديًا */
+  justify-content: space-between; /* توزيع العناصر أفقيًا */
+  gap: 20px; /* إضافة مسافة بين النص والفيديو */
+}
+
+.v-w {
+  width: 100%; /* تخصيص عرض معين للنص */
+  text-align: right; /* محاذاة النص إلى اليمين */
+  margin-left: 40px;
+  line-height: 2;
+}
+
+.col-8 {
+  width: 60%; /* تخصيص عرض معين للفيديو */
+}
+
+
+.info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.info p {
+  line-height: 1.6;
+  font-size: 18px;
+  max-width: 100%;
+  margin-left: 20px;
+  flex: 1;
+  text-align: right;
+}
+
+.photo {
+  width: 100%;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+/* Section two */
+.t-circle::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: -145px;
+  vertical-align: middle;
+}
+.t-circle{
+  text-align: right;
+  margin-right: 200px;
+  font-size: 35px;
+}
+.row h3{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.info p{
+  width: 50px;
+  font-size: 25px;
+  text-align: justify;
+  /* text-align: right; */
+  line-height: 2;
+}
+/* Section three */
+
+.th-circle {
+  text-align: right;
+  margin-right: 80px;
+  font-size: 35px;
+}
+
+.th-circle::before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background-color: black;
+  border-radius: 50%;
+  /* margin-right: -50px; Adjusted margin for better alignment */
+}
+.spo h3{
+margin-right: 30PX;
+font-size: 25px;
+line-height: 2;
+text-align: right;
+}
+
+.spo-o, .spo-a, .spo-n {
+  display: flex;                /* لجعل المحتوى بجانب بعضه البعض */
+  justify-content: space-between; /* توزيع المساحة بين الصورة والنص */
+  align-items: center;          /* محاذاة العناصر عموديًا في المنتصف */
+  margin-bottom: 20px;          /* إضافة مساحة أسفل العنصر */
+}
+
+.spo-w {
+  text-align: justify;
+  
+  flex: 1;                      /* السماح للنص بملء المساحة المتبقية */
+  margin-right: 20px;           /* مسافة بين النص والصورة */
+  font-size: 20px;           /* حجم مناسب للنص */
+  
+  line-height: 2;
+}
+
+.photo {
+  width: 50%;                   /* جعل الصورة تأخذ نصف العرض */
+  max-width: 400px;             /* أقصى عرض للصورة */
+  height: auto;                 /* الحفاظ على نسبة العرض والارتفاع */
+  border: 4px solid #ddd;       /* إطار حول الصورة */
+  border-radius: 10px;          /* زوايا مستديرة للإطار */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف للصورة */
+}
+.btnbtn-secondarydropdown-toggle{
+background:none;
+border: none;
+}
+
+/* footer */
+footer{
+    
+
+  background: rgb(27, 27, 27);
+  position: relative;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   margin-top:15%;
+   height: 40vh;
+  
+  }
+
+  .fo{
+    color: white;
+  }
+  footer p{
+    color: white;
+    
+    font-size: 18px;
+      word-spacing: 0.5rem; /* للتحكم في المسافة بين الكلمات */
+      letter-spacing: 0.05rem; /* للتحكم في المسافة بين الأحرف */
+      line-height: 1.6; /* للتحكم في ارتفاع السطر */
+    
+    
+  }
+
+footer .social-icons{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+padding: 40px;
+z-index: 10000;
+position: relative;
+  top: -38px;
+}
+.social-icons li{
+  list-style: none;
+}
+.social-icons li a{
+  font-size: 2em;
+  color: rgb(241, 226, 226);
+  display: inline-block;
+  margin: 0 10px;
+  /* transition: 0.10s; */
+}
+/* .pf{
+  color:rgb(236, 225, 225);
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+
+} */
+.social-icon {
+  
+  width: 100px; /* حجم الأيقونة */
+  height: 100px; /* حجم الأيقونة */
+  /* border-radius: 50%;  */
+  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* إضافة ظل خفيف */
+  display: inline-block;
+}
+

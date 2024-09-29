@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+  }
+  /* nav */
+  span{
+    color: #a61732;
+  }
+  nav {
+    
+    backdrop-filter: blur(8px) !important;
+    background: transparent !important; 
+    background-color: #ffffff9f !important;
+  
+  }
+  .nav-link{
+    color: black !important;
+  }
+  .nav-link:hover {
+      color: #ea1538!important;
+      transition: .3s ;
+      
+  }
+/****************************************** sectionone***************************************** */
+
+.one-n{
+    width: 30px ;
+    height: 15vh;
+  }
+  
+  .with-circle::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  
+  h1 {
+    text-align: right;
+    color: #333;
+    padding: 70px ;
+
+  }
+  h3{
+    text-align: right;
+  }
+  
